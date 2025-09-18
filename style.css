@@ -1,0 +1,26 @@
+body{
+    background-color: #4B3935;
+}
+a{
+    text-decoration: none;
+    color: #EAE0C8;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    list-style: none;
+    
+}
+h1{
+    color: #EAE0C8;
+    display: flex;
+}
+.sobremim{
+    background-color:  #EAE0C8 ;
+}
+.projetos{
+    background-color: #4B3935;
+}
+
+.contato{
+     background-color:  #EAE0C8;
+}
