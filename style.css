@@ -1,26 +1,101 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body{
     background-color: #4B3935;
+
 }
-a{
-    text-decoration: none;
-    color: #EAE0C8;
-    display: flex;
-    align-items: right;
-    justify-content: right;
-    list-style: none;
-    
+.menu{
+   text-decoration: none;
+   list-style: none;
+   color: #EAE0C8;
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-h1{
-    color: #EAE0C8;
-    display: flex;
+.menu, a{
+   list-style: none;
+   text-decoration: none;
+   color: #EAE0C8;
+   font-size: 25px;
+   padding-right: 25px;
+   margin-right: 25px;
+
+
+}
+img{
+    width: 1322px;
+    height: 744px;
+
 }
 .sobremim{
-    background-color:  #EAE0C8 ;
+    color: #EAE0C8;
+    width: 1440px;
+    height: 1024px;
 }
 .projetos{
-    background-color: #4B3935;
+    color: #EAE0C8;
+    width: 1440px;
+    height: 1024px;
+}
+
+  h1, h2,  h3, h5  {
+    color: #EAE0C8;
+    padding-left: 50px;
+    font-size: 30px;
+
 }
 
 .contato{
-     background-color:  #EAE0C8;
+     color: #EAE0C8;
+      width: 1440px;
+    height: 1024px;
+}
+.camera1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.informacoes p {
+    font-size: 25px;
+    font-weight: 200;
+    padding-left: 50px;
+
+}
+.contato li{
+    font-size: 25px;
+    font-weight: 200;
+    flex-direction: column;
+    width: 40%;
+    padding-left: 50px;
+    
+}
+.cam2 {
+    width: 50%;
+}
+.tudo{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+}
+
+.habilidades p{
+    font-size: 25px;
+    font-weight: 200;
+    flex-direction: column;
+    width: 40%;
+  padding-left: 50px;
+
+}
+
+.informacoes{
+    width: 50%;
+}
+.habilidades{
+    padding-left: 50px;
+    flex-direction: column;
+
+
 }
